@@ -82,6 +82,58 @@
 #define CH5_SCL_Get()               ((PORTG >> 8) & 0x1U)
 #define CH5_SCL_PIN                  GPIO_PIN_RG8
 
+/*** Macros for CH4_MISO pin ***/
+#define CH4_MISO_Get()               ((PORTB >> 5) & 0x1U)
+#define CH4_MISO_PIN                  GPIO_PIN_RB5
+
+/*** Macros for CH4_MOSI pin ***/
+#define CH4_MOSI_Get()               ((PORTB >> 3) & 0x1U)
+#define CH4_MOSI_PIN                  GPIO_PIN_RB3
+
+/*** Macros for CH2_MISO pin ***/
+#define CH2_MISO_Get()               ((PORTB >> 6) & 0x1U)
+#define CH2_MISO_PIN                  GPIO_PIN_RB6
+
+/*** Macros for CH3_MOSI pin ***/
+#define CH3_MOSI_Get()               ((PORTB >> 9) & 0x1U)
+#define CH3_MOSI_PIN                  GPIO_PIN_RB9
+
+/*** Macros for CH3_MISO pin ***/
+#define CH3_MISO_Get()               ((PORTB >> 10) & 0x1U)
+#define CH3_MISO_PIN                  GPIO_PIN_RB10
+
+/*** Macros for CH4_SCLK pin ***/
+#define CH4_SCLK_Get()               ((PORTF >> 13) & 0x1U)
+#define CH4_SCLK_PIN                  GPIO_PIN_RF13
+
+/*** Macros for CH3_SCLK pin ***/
+#define CH3_SCLK_Get()               ((PORTB >> 14) & 0x1U)
+#define CH3_SCLK_PIN                  GPIO_PIN_RB14
+
+/*** Macros for CH2_MOSI pin ***/
+#define CH2_MOSI_Get()               ((PORTB >> 15) & 0x1U)
+#define CH2_MOSI_PIN                  GPIO_PIN_RB15
+
+/*** Macros for CH2_SCLK pin ***/
+#define CH2_SCLK_Get()               ((PORTD >> 15) & 0x1U)
+#define CH2_SCLK_PIN                  GPIO_PIN_RD15
+
+/*** Macros for CLKI pin ***/
+#define CLKI_Get()               ((PORTC >> 12) & 0x1U)
+#define CLKI_PIN                  GPIO_PIN_RC12
+
+/*** Macros for CH1_SCLK pin ***/
+#define CH1_SCLK_Get()               ((PORTD >> 10) & 0x1U)
+#define CH1_SCLK_PIN                  GPIO_PIN_RD10
+
+/*** Macros for CH1_MISO pin ***/
+#define CH1_MISO_Get()               ((PORTD >> 11) & 0x1U)
+#define CH1_MISO_PIN                  GPIO_PIN_RD11
+
+/*** Macros for CH1_MOSI pin ***/
+#define CH1_MOSI_Get()               ((PORTD >> 0) & 0x1U)
+#define CH1_MOSI_PIN                  GPIO_PIN_RD0
+
 /*** Macros for RGB_SCLK pin ***/
 #define RGB_SCLK_Get()               ((PORTD >> 1) & 0x1U)
 #define RGB_SCLK_PIN                  GPIO_PIN_RD1
